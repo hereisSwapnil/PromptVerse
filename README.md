@@ -22,13 +22,13 @@ PromptVerse is a web application designed to provide users with access to a wide
 Clone the project
 
 ```bash
-  git clone https://github.com/hereisSwapnil/prompt_verse.git
+  git clone https://github.com/hereisSwapnil/PromptVerse.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd CourseHub
+  cd PromptVerse
 ```
 
 Install dependencies

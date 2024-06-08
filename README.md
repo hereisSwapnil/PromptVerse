@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PromptVerse
 
-## Getting Started
+PromptVerse is a web application designed to provide users with access to a wide range of creative prompts, allowing them to explore, utilize, and share ideas. Built with user convenience and interactivity in mind, PromptVerse offers a seamless experience with a variety of features.
 
-First, run the development server:
+## Features
+
+- **User Authentication:** Utilizing Google Firebase, PromptVerse offers secure user authentication and login functionality, ensuring a safe and personalized experience for every user.
+- **Prompt Data Management:** Prompt data is stored on MongoDB, allowing users to browse through a diverse selection of prompts easily.
+- **Detailed Prompt Viewing:** Prompt details are readily available for users to view, providing comprehensive information about each prompt's content and objectives.
+- **Prompt Contribution:** Users can add new prompts and share their ideas with the community, fostering a collaborative and creative environment.
+- **User Dashboard:** The user dashboard displays users' interactions with prompts, enabling them to monitor their creative journey effectively.
+- **Search and Filter:** Advanced search and filtering options allow users to find prompts based on categories, tags, and popularity.
+
+## Screenshots
+
+![image](https://github.com/hereisSwapnil/prompt_verse/assets/85278243/e90bdec1-7638-43b6-be18-2fd55ec1de4e)
+![image](https://github.com/hereisSwapnil/prompt_verse/assets/85278243/929c74db-79a2-414f-8931-0d04becfa38e)
+![image](https://github.com/hereisSwapnil/prompt_verse/assets/85278243/a38b0488-a1ab-4cb7-962f-2d59b579cc71)
+
+## Run Locally
+
+Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/hereisSwapnil/prompt_verse.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+  cd CourseHub
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Install dependencies
 
-## Learn More
+```bash
+  npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Start the server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+  npm run dev
+```
